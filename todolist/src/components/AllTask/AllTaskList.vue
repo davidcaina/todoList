@@ -1,8 +1,8 @@
 <template>
     <ul class="all-task-list">
-        <Elemento nomeElemento="Test1"/>
-        <Elemento nomeElemento="Test2"/>
-        <Elemento nomeElemento="Test3"/>
+        <Elemento nomeElemento="Test1" isActive="active"/>
+        <Elemento nomeElemento="Test2" isActive=""/>
+        <Elemento nomeElemento="Test3" isActive=""/>
     </ul>
 </template>
 
@@ -17,6 +17,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 
+.all-task-list{
+  font-size: 1.2rem;
+  padding-left: 1em;
+  line-height: 1.7;
+  list-style: circle;
+}
 </style>

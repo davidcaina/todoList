@@ -1,5 +1,8 @@
 <template>
-    <li>
+    <li v-if="isActive == 'active'" :class="activeList">
+        {{nomeElemento}}
+    </li>
+        <li v-else class="">
         {{nomeElemento}}
     </li>
 </template>
@@ -8,11 +11,20 @@
 
 export default {
     props:{
-        nomeElemento: String
+        nomeElemento: String,
+        isActive: String
+    },
+    data(){
+        return{
+            activeList: "active-list",
+        }
     }
 };
 </script>
 
-<style scoped>
+<style>
 
+.active-list{
+    font-weight: bold;
+}
 </style>

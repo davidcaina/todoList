@@ -19,6 +19,28 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 
+.new {
+    background: transparent;
+    border: 0;
+    color: #f4f4f4;
+    border-bottom: 1px solid currentColor;
+    font-size: inherit;
+    outline: none;
+    transition: border-bottom 150ms ease-in;
+    order: 2;
+}
+
+.new:focus{
+    border-bottom-width: 3px;
+}
+
+.new:focus::placeholder{
+    opacity: 0.2;
+}
+
+.new.list{
+    font-size: 1rem;
+}
 </style>

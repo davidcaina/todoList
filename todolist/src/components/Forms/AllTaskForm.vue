@@ -25,6 +25,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+
+form{
+    display: flex;
+}
 
 </style>
