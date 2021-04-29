@@ -16,6 +16,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+
+.all-tasks1{
+  display: block;
+  position: absolute;
+  transform: translate(160px, 150px);
+}
 
 </style>

@@ -3,7 +3,6 @@
         <AllTaskInput makeTask="list"/>
         <AllTaskButton makeTask="list"/>
     </form>
-
         <form v-else-if="makeTask == 'task'">
         <AllTaskInput makeTask="task"/>
         <AllTaskButton makeTask="task"/>

@@ -18,6 +18,10 @@ export default {
 };
 </script>
 
-<style scoped>
-
+<style>
+.todo-list{
+  display: block;
+  position: absolute;
+  transform: translate(850px, 150px);
+}
 </style>
