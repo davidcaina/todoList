@@ -2,7 +2,7 @@
   <div id="app">
     <Header/>
     <AllTask/>
-    <AllTaskForm/>
+    <AllTaskForm makeTask="list"/>
 
     <TodoList/>
   </div>
