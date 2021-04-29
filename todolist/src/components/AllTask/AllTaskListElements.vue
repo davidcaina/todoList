@@ -2,7 +2,7 @@
     <li v-if="isActive == 'active'" :class="activeList">
         {{nomeElemento}}
     </li>
-        <li v-else class="">
+        <li v-else :class="clickable">
         {{nomeElemento}}
     </li>
 </template>
@@ -16,7 +16,8 @@ export default {
     },
     data(){
         return{
-            activeList: "active-list",
+            activeList: "active-list list-name",
+            clickable: "list-name"
         }
     }
 };
@@ -26,5 +27,12 @@ export default {
 
 .active-list{
     font-weight: bold;
+}
+
+.list-name{
+    cursor: pointer;
+}
+.list-name:hover{
+    opacity: 0.7;
 }
 </style>

@@ -32,4 +32,15 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style>
+
+.todo-body{
+  padding: 2rem;
+}
+
+[type="checkbox"]{
+  opacity: 0;
+  position: absolute;
+}
+
+</style>

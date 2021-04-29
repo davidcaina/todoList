@@ -9,6 +9,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 
+.todolist-header-counter{
+    margin: 0;
+    font-size: 1rem;
+    padding-left: 10rem;
+}
 </style>

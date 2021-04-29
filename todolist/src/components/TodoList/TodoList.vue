@@ -20,8 +20,11 @@ export default {
 
 <style>
 .todo-list{
-  display: block;
+
   position: absolute;
   transform: translate(850px, 150px);
+
+  background: var(--light-color);
+  color: var(--dark-color);
 }
 </style>
